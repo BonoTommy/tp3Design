@@ -1,0 +1,22 @@
+/* -------------------- Règles générales pour les boutons ---------- */
+
+    .bouton {
+        border: 0px;
+        padding: 20px;
+        color: white;
+        background-color: rgb(1,78,64);
+        font-size: x-large;
+        font-weight: bold;
+        transition-duration: 300ms;
+    }
+
+    .bouton:hover {
+        /* background-color: rgba(100, 100, 100); */
+        color: #ffff;
+        background-color: var(--vert);
+        transition-duration: 300ms;
+ 
+        font-weight: bolder;
+    }
+
+/* -------------------- Fin règles générales boutons ---------- */

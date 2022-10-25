@@ -1,0 +1,68 @@
+/* -------------------- Importation de fichiers CSS -------------------- */
+
+
+	/* -------------------- Règles générales des grilles des sections de contenu ---------- */
+
+		@import "./sections_contenu/style-sections-contenu.css";
+
+	/* -------------------- Fin règles générales des grilles sections contenu -------------------- */
+
+
+
+	/* -------------------- Modules spécifiques -------------------- */
+
+		/* Module (section) de la barre promotionnelle en haut de la page */
+		@import "./modules_specifiques/style-barre-promo.css";
+
+
+		/* Module (section) de la navigation principale en haut de la page */
+		@import "./modules_specifiques/style-navigation.css";
+
+
+		/* Module (section) de l'entête "hero" en haut de la page */
+		@import "./modules_specifiques/style-entete.css";
+
+
+		/* Module (section) du pied de page */
+		@import "./modules_specifiques/style-pied-de-page.css";
+
+	/* -------------------- Fin modules spécifiques -------------------- */
+
+
+/* -------------------- Fin importation -------------------- */
+
+
+
+/* -------------------- Règles générales pour tous les sections de contenu ---------- */
+
+	/* Marges de sécurité de base */
+
+		body>section {
+			margin: 20px;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Rythme vertical espacé pour bien dégager les principaux conteneurs (sections) de contenu */
+
+		body>section {
+			margin-top: 160px;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Limiter et centrer les principales sections de contenu */
+
+		body>section {
+			/* max-width: 100rem;  */
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+/* -------------------- Fin règles générales sections -------------------- */
+

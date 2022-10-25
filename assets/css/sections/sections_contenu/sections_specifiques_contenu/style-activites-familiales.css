@@ -1,0 +1,53 @@
+/* -------------------- Section Activités familiales -------------------- */
+
+    .section-activites-familiales {
+        
+        height: 35rem;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .section-activites-familiales {
+        background-color: #fff;
+        background-image: url(../../../../imgs/pexels-oleksandr-pidvalnyi-1172023.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 125%;
+    }
+
+    .section-activites-familiales div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 50%;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 10vh 0;
+        
+    }
+
+    .section-activites-familiales div *{
+        margin-block: 20px;
+        width: 80%;
+    }
+
+    .section-activites-familiales p {
+        font-size: x-large;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-activites-familiales .bouton {
+        justify-content: center;
+        max-width: 13em;
+    }
+
+    .section-activites-familiales h2 {
+        text-align: center;
+        line-height: 2;
+        max-height: 100ch;
+    }
+
+/* ------------------------------------------------------------ */

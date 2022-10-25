@@ -1,0 +1,46 @@
+/* -------------------- Section Infolettre et Devenir membre -------------------- */
+
+
+    .section-membre{
+        margin-top: 100px;
+    }
+    .section-membre, .section-infolettre h2{
+        font-size: xx-large;
+    } 
+
+    .section-membre>*{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    
+    }
+
+    .section-membre p{
+        font-size: large;
+        padding-bottom: 75px;
+        text-align: center;
+        
+    }
+
+    .section-membre h2{
+        text-align: center;
+    } 
+
+
+
+    .section-membre .bouton{ 
+        text-align: center;           
+        max-width: 250px;
+        margin: auto;
+    }
+
+
+    @media screen and (max-width: 900px) {
+        .section-membre, .section-infolettre h2{
+            font-size: x-large;
+        }
+    }
+
+
+/* ------------------------------------------------------------ */
+

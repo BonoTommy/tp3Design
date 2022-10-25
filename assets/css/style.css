@@ -1,0 +1,144 @@
+/* -------------------- Importation de fichiers CSS -------------------- */
+
+
+	/* -------------------- Sections -------------------- */
+
+		/* Règles générales pour tous les sections (modules) de contenu */
+		@import "./sections/style-sections.css";
+
+
+	/* -------------------- Fin sections -------------------- */
+
+
+
+	/* -------------------- Éléments spécifiques de contenu -------------------- */
+
+		/* Bouton */
+		@import "./elements_specifiques_contenu/style-bouton.css";
+
+		/* Formulaire */
+		@import "./elements_specifiques_contenu/style-formulaire.css";
+
+
+	/* -------------------- Fin éléments de contenu -------------------- */
+
+
+/* ----------------------------------- Fin importation ------------------------- */
+
+
+
+/* -------------------- Aide-mémoire -------------------- */
+	/*
+	Gouttière et rythme de base
+		20px
+
+	Rythme serré
+		10px
+
+	Rythme espacé
+	160px
+
+	Largeur maximale des sections principales
+		100rem
+
+	
+	font family
+	'Poppins', arial, sans-serif;
+
+*/
+
+
+	
+/* -------------------- Fin aide-mémoire -------------------- */
+
+
+/* Contours en rouge pointillé */
+
+	/* * {
+		outline: 1px dashed red;
+	} */
+
+/* ------------------------------------------------------------ */
+
+
+/* -------------------- Règles génériques pour toutes les pages du site -------------------- */
+
+
+	/* Rétablir les marges intérieures et extérieures sur tout */
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Rythme vertical de base pour tous les éléments de contenu */
+
+		*+p, *+img, *+small, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 { 
+			margin-top: 20px; 
+		} 
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Base typographique à être héritée */
+
+		html {
+			font-family: 'Poppins', arial, sans-serif;
+			line-height: 1.5625;
+			--vert: #7ebb29;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Interlignage propre aux titres (moins espacé que le contenu courant) */
+
+		h1, h2, h3, h4 {
+			line-height: 1.25;
+			
+			/* font-family: 'Gentium Plus', serif; */
+		}
+
+		.marcellus{
+				font-weight: 700;
+				font-family: 'Marcellus', arial, sans-serif;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Style images */
+
+		img{
+			overflow: hidden;
+			object-fit: cover;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+	/* Mise en forme des liens non-visités, visités et hover */
+
+		a {
+			text-decoration: none;
+			text-align: center;
+		}
+
+		a {
+			color: black;
+		}
+		
+
+
+	
+
+	/* ------------------------------------------------------------ */
+
+
+/* -------------------- Fin règles génériques pour toutes les pages du site -------------------- */
+
+
+

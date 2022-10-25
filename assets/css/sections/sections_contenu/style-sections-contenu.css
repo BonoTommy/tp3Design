@@ -1,0 +1,134 @@
+/* -------------------- Importation de fichiers CSS -------------------- */
+
+
+	/* -------------------- Sections spécifiques de contenu -------------------- */
+
+        /* Section de contenu «Nouvelles» */
+        @import "./sections_specifiques_contenu/style-nouvelles.css";
+
+		/* Section de contenu «Activités familiales» */
+		@import "./sections_specifiques_contenu/style-activites-familiales.css";
+
+
+		/* Section de contenu «Découvrez les animaux» */
+		@import "./sections_specifiques_contenu/style-decouvrez-animaux1.css";
+
+
+		/* Section de contenu «Préservation» */
+		@import "./sections_specifiques_contenu/style-preservation.css";
+
+
+		/* Section de contenu «Infolettre et membre» */
+		@import "./sections_specifiques_contenu/style-membre.css";
+
+	/* -------------------- Fin sections spécifiques contenu -------------------- */
+
+
+/* -------------------- Fin importation -------------------- */
+
+
+
+/* -------------------- Règles générales des grilles des sections de contenu -------------------- */
+
+	/* Contexte flex horizontal avec marge par espacement */
+
+        body>section>div {
+            display: flex;
+            justify-content: space-around;
+        }
+
+	/* ------------------------------------------------------------ */
+
+    
+    /* Largeur de base de tout enfant de la grille */
+
+        body>section>div>* {
+            width: calc(50%);
+            padding: max(20px, 1vh);
+
+        }
+
+	/* ------------------------------------------------------------ */
+
+
+/* -------------------- Fin règles générales des grilles sections de contenu -------------------- */
+
+
+
+/* -------------------- Règles spécifiques des éléments de contenu -------------------- */
+    
+    /* Dimensions de base de toute image interne */
+
+        section>div img {
+            height: 20rem;
+            width: 100%;
+        }
+
+	/* ------------------------------------------------------------ */
+
+
+    /* Intervention graphique séparant clairement les h2 de leur contenu */
+
+		section>header>h2, div>header>h2 {
+			padding-bottom: 40px;
+			font-size: 3.5rem;
+		}
+
+		section>header>h2 {
+			margin: 25px;
+			text-align: center;
+		}
+
+	/* ------------------------------------------------------------ */
+
+
+    /* Position centrée des a et des h3 des articles */
+
+        article a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        article h3 {
+            text-align: center;
+            max-width: 30ch;
+            font-size: 2em;
+        }
+
+	/* ------------------------------------------------------------ */
+
+    
+    /* Mise en forme des header des articles */
+
+        article header {
+            text-transform: uppercase;
+            font-size: inherit;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+    /* ------------------------------------------------------------ */
+
+
+    @media screen and (max-width: 1115px) {
+        section>div img {
+            height: 15rem;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        body>section>div {
+            display: block;
+            margin: auto;
+        }
+         body>section>div>* {
+            width: 100%;
+         
+        }  
+
+}
+/* -------------------- Fin règles spécifiques des éléments de contenu -------------------- */
+
+

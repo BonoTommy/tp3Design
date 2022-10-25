@@ -1,0 +1,133 @@
+/* -------------------- Module (section) du pied de page -------------------- */
+
+  .section-infolettre{
+        text-align: center; 
+        padding-top: 100px;
+    }
+
+    .section-infolettre h2{
+        font-size: xx-large;
+    }
+    .section-infolettre label{
+        display: none;
+    }
+
+    /* Mise en forme */
+
+        /* .pied-de-page {
+            display: flex;
+            bottom: 0;
+            background: #014e40;
+            padding: 40px 0px;
+            text-align: center;
+           
+        } */
+
+        .pied-de-page{     
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(1,78,64,1) 58%, rgba(1,78,64,1) 100%);
+        }
+
+        .pied-de-page h3{
+            padding-top: 50px;
+        }
+    
+   
+    /* ------------------------------------------------------------ */
+
+    /* Alignement horizontal du pied de page */
+
+        .pied-de-page nav {
+            display: flex;
+            padding:  3rem;
+            align-items: stretch;
+        }
+
+        .pied-de-page nav>*{
+            flex-basis: 20%;   
+        }
+
+        .pied-de-page nav>*:not(:last-child){
+            border-right: solid 1px white;
+        }
+
+        .pied-de-page ul, .media{
+            margin: 0 25px;
+        } 
+    /* ------------------------------------------------------------ */
+
+    /* Mise en forme du logo, des liens et des icônes du pied de page */
+
+        .pied-de-page ul, span{
+            text-align: left;
+        }
+
+        .pied-de-page li {
+            list-style-type: none;
+           padding: 5px;
+        }
+
+        .pied-de-page a {
+            text-align: left;
+            color: white;
+        }
+
+        .pied-de-page a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            height: 5rem;
+            padding-right: 25px;
+        }
+
+        .pied-de-page address{
+            text-align: left;
+            margin-top: 25px;
+            color: white;
+        }
+
+        .pied-de-page .titre-liste {
+            font-size: larger;
+            padding-bottom: 10px;
+        }
+
+        .pied-de-page .icones-reseaux-sociaux {
+            display: flex;
+            margin-left: 0;
+            padding-top: 10px;
+        }
+
+        .pied-de-page .icones-reseaux-sociaux img {
+            height: 2.5rem;
+            width: 2.5rem;
+            margin: 0 5px;
+        }
+
+    /* ------------------------------------------------------------ */
+
+     @media screen and (max-width: 1100px) {
+
+        .pied-de-page .icones-reseaux-sociaux {
+            display: block;
+        }
+
+        .pied-de-page .icones-reseaux-sociaux img{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+    }
+    @media screen and (max-width: 975px) {
+        .logo {
+            height: 3.5rem;
+            padding-right: 25px;
+        }
+
+         .pied-de-page address{
+            padding-right: 10px;
+        }
+
+    }
+
+/* -------------------- Fin module (section) du pied de page -------------------- */

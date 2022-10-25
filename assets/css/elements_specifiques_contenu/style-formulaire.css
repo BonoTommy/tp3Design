@@ -1,0 +1,31 @@
+/* -------------------- Règles générales pour le formulaire de l'infolettre ---------- */
+
+    .formulaire-infolettre {
+        display: flex;
+        margin-block: 20px; 
+        justify-content: center;
+    }
+
+
+    .formulaire-infolettre input {
+        font-family: inherit;
+        padding: 1em;
+        font-size: large;
+       
+    }
+
+    .formulaire-infolettre input[type="email"] {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 0px;
+        min-width: 24ch;
+    }
+
+    .formulaire-infolettre .bouton{
+        font-weight: 700;
+    }
+
+    .formulaire-infolettre .bouton{
+        cursor: pointer;
+    }
+/* -------------------- Fin règles générales formulaire de l'infolettre ---------- */
